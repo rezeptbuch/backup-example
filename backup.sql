@@ -68,10 +68,10 @@ CREATE TABLE `group` (
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
-LOCK TABLES `comment` WRITE;
-/*!40000 ALTER TABLE `comment` DISABLE KEYS */
+LOCK TABLES `group` WRITE;
+/*!40000 ALTER TABLE `group` DISABLE KEYS */
 INSERT INTO `group` VALUES (0,'defaultGroup');
-/*!40000 ALTER TABLE `comment` ENABLE KEYS */;
+/*!40000 ALTER TABLE `group` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
